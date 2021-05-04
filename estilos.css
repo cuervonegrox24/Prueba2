@@ -6,6 +6,158 @@ box-sizing: border-box;
 }
 
 
+/* Logo */
+
+.logo {
+  
+    padding: 15px 10px;
+    
+}
+
+
+/* CSS Inicio */
+
+.title h1 {
+    
+    color: yellow;
+    margin: 10px;
+    padding: 65px;
+    text-align: center;
+    font-size: 120px;
+
+}
+
+
+.fondoTitle {
+    background: url(https://www.fundacion-affinity.org/sites/default/files/dia-de-los-animales.jpg
+    ) ;
+    background-size: cover;
+    height: 1400px;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 10px;
+    font-size: 25px;
+  
+
+}
+
+a{
+    color: white;
+    font-size: 45px;
+    text-decoration: none;
+    margin: 10ox 20px 10px 0px;
+    padding: 8px 16px;
+}
+
+a:hover {
+    text-decoration: none;
+    background: wheat;
+}
+
+
+/* Servicios */
+
+
+.fondoServ {
+    background: url(http://www.kdeblog.com/wp-content/uploads/2010/08/KDE__Stripes_by_white_dawn.jpg) ;
+    background-size: cover;
+    height: 1400px;
+}
+
+
+.servTitle h1{
+    background: #393e46;
+    color: #eeeeee;
+    margin: 10px;
+    padding: 65px;
+    text-align: center;
+
+}
+
+.services{
+    
+    background: chocolate;
+    margin: 10px;
+    padding: 65px;
+    text-align: center;
+}
+
+.foto1 {
+
+    margin: 15px 15px;
+
+    
+}
+
+.foto2 {
+
+
+    margin: -390px 1160px;
+}
+
+
+.foto3 {
+    margin: 10px 590px;
+}
+
+
+
+
+.serv {
+    display: flex;
+}
+
+
+
+
+
+
+/* Informacion y contacto */
+ 
+.infoTitle h1{
+    background: #393e46;
+    color: #eeeeee;
+    margin: 10px;
+    padding: 65px;
+    text-align: center;
+
+}
+
+
+
+/* Galeria mascotas */
+
+.descAnimales{
+
+    text-align: center;
+
+}
+
+.vermas {
+    color: blue;
+    background: lightseagreen;
+    text-align: center;
+}
+
+
+
+
+/* Galeria medicos */
+
+.descMed {
+    text-align: center;
+
+}
+
+
+
+
+
 .galeria{
 
     font-family: 'open sans';
