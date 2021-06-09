@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion con JS</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">  <!----AQUI VA UN LINK NO AGREGAR HASTA ULTIMO MOMENTO-->
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Crear cuenta</h2>
+
+        </div>
+        <form id="form" class="form" action="">
+            <div class="form-control">
+                <label for="username">Usuario</label>
+                <input type="text" placeholder="nombre" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="text" placeholder="ejemplo@email.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="username">Password</label>
+                    <input type="password" placeholder="Password" id="Password" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="Password2">Password</label>
+                    <input type="password" placeholder="Password" id="Password2" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="rut">Rut</label>
+                    <input type="number" placeholder="rut" id="rut" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="Ciudad">Ciudad</label>
+                    <input type="text" placeholder="Ciudad" id="Ciudad" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="telefono">telefono</label>
+                    <input type="number" placeholder="telefono" id="telefono" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                
+
+
+
+ 
+
+ <!--Comentarios-->
+
+ <div class="form-control">
+
+     <label for="mensaje" class="col-form-label col-md-4">Mensaje o Consulta:</label>
+
+     <div class="form-control">
+
+         <textarea name="mensaje" id="mensaje"  rows="3" class="form-control" maxlength="50"></textarea>
+
+     </div>
+
+ </div> 
+
+
+                <div class="button">
+                    <div class="d-flex justify-content-end">
+                        <input type="submit" class="btn btn-primary" value="Enviar" button type="button" style="background:green">
+                        
+                        
+                        <div class="botoncito">
+                            <input type="reset" class="btn btn-secondary" value="Limpiar" button type="button" style="background:red"></button>  &nbsp;
+                        </div>
+                        
+                       
+                    </div>
+                
+        </form>
+
+
+        
+
+        
+        
+         
+         </div>
+    </div>
+    <script src="main.js"></script>
+
+
+
+</body>
+</html>
