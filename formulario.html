@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="clima.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body onload="onLoad()">
+
+        <div id="loader" class="loader">Cargando...</div>
+        <div id="container" class="container">
+            <div class="block">
+                <div id="location"></div>
+                <div id="date"></div>
+                <div id="description"></div>
+            </div>
+            <div class="block">
+                <div class="information-container">
+                    Temperatura:
+                    <div class="information" id="temperature"></div>
+                </div>
+                <div class="information-container">
+                    Humedad:
+                    <div class="information" id="humidity"></div>
+                </div>
+                <div class="information-container">
+                    Presion:
+                    <div class="information" id="pressure"></div>
+                </div>
+            </div>
+        </div>
+        <script src="clima.js"></script>
+        
+        
+        
+        <div class="titulo">
+                <h1>Crear Cuenta</h1>
+                <h5>Campos Obligatorios *</h5>
+                
+        </div>
+
+
+
+        <div class="formulario">
+            <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+        <form id="form" class="form" action="">
+            <div class="form-control">
+                <label for="username">Nombre*</label>
+                <input type="text" placeholder="Nombre" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <br> <br>
+                <small>Error message</small>
+
+            </div>
+            <div class="form-control">
+                <label for="username">Email*</label>
+                <input type="text" placeholder="ejemplo@email.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <br> <br>
+                <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="username">Password*</label>
+                    <input type="password" placeholder="Password" id="Password" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <br> <br>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="Password2">Password*</label>
+                    <input type="password" placeholder="Password" id="Password2" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <br> <br>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="rut">Rut*</label>
+                    <input type="number" placeholder="rut" id="rut" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <br> <br>
+                    <small>Error message</small>
+                </div>
+                
+                <!--Telefono-->
+
+                <div class="form-control">
+
+                   <label for="telefono" class="col-form-label col-md-4">Telefono</label>
+
+                   <div class="form-control">
+
+                     <input type="tel" name="nombre" placeholder="Telefono" value="" id="telefono" class="form-control">
+
+                     
+                  </div>
+
+                </div>
+                <br>
+
+                <div class="form-control">
+                    <label for="Ciudad">Ciudad*</label>
+                    <input type="text" placeholder="Ciudad" id="Ciudad" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <br> <br>
+                    <small>Error message</small>
+                </div>
+
+                <!--Comentarios-->
+
+                <div class="form-control">
+
+                    <label for="mensaje" class="col-form-label col-md-4">Mensaje o Consulta:</label>
+
+                    <div class="form-control">
+
+                        <textarea name="mensaje" id="mensaje"  rows="3" class="form-control" maxlength="50"></textarea>
+
+                    </div>
+
+                </div> 
+
+                <!--Boton Enviar y Limpiar-->
+                <div class="boton">
+                <div class="d-flex justify-content-end">
+                    <input type="submit" class="btn btn-primary" value="Enviar">
+                    <button type="reset" class="btn btn-secondary" value="Limpiar">Limpiar</button> &nbsp;
+                </div>
+                
+                </div>
+        </form>
+
+    </div>
+
+    
+    <script src="main.js"></script>
+
+
+
+
+    
+        </div>
+
+
+        
+
+
+
+
+
+
+    </body>
+</html>
